@@ -1,1 +1,29 @@
 /* Add your own CSS code below */
+.countries {
+  display: flex;
+}
+.countries--first {
+  flex-direction: row-reverse;
+  justify-content: right;
+}
+/*.country:nth-child(1){
+    order: 5;
+}
+.country:nth-child(2){
+    order: 4;
+}
+.country:nth-child(3){
+    order: 3;
+}
+.country:nth-child(4){
+    order: 2;
+}
+.country:nth-child(5){
+    order: 1;
+}*/
+.countries--second {
+  flex-direction: column;
+}
+.countries--third {
+  flex-direction: column-reverse;
+}
