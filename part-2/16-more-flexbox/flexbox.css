@@ -3,3 +3,107 @@
 }
 
 /* Add your own CSS code below */
+.countries--first {
+  display: flex;
+  justify-content: right;
+  align-content: flex-end;
+}
+.countries--first .country--brazil {
+  align-self: flex-end;
+}
+.countries--first .country--croatia {
+  align-self: flex-end;
+}
+.countries--first .country--ethiopia {
+  align-self: flex-end;
+}
+.countries--first .country--laos {
+  align-self: flex-end;
+}
+.countries--first .country--uganda {
+  align-self: flex-end;
+}
+.countries--second {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.countries--second .country--brazil {
+  align-self: flex-end;
+}
+.countries--second .country--croatia {
+  align-self: flex-end;
+}
+.countries--second .country--ethiopia {
+  align-self: flex-end;
+}
+.countries--second .country--laos {
+  align-self: flex-end;
+}
+.countries--second .country--uganda {
+  align-self: flex-end;
+}
+.countries--third {
+  display: flex;
+  justify-content: center;
+}
+.countries--third .country--brazil {
+  align-self: flex-end;
+}
+.countries--third .country--croatia {
+  align-self: flex-start;
+}
+.countries--third .country--ethiopia {
+  align-self: flex-start;
+}
+.countries--third .country--laos {
+  align-self: flex-start;
+}
+.countries--third .country--uganda {
+  align-self: flex-start;
+}
+.countries--fourth {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+.countries--fourth .country--brazil {
+  align-self: flex-end;
+}
+.countries--fourth .country--croatia {
+  align-self: flex-end;
+}
+.countries--fourth .country--ethiopia {
+  align-self: center;
+}
+.countries--fourth .country--laos {
+  align-self: center;
+}
+.countries--fourth .country--uganda {
+  align-self: flex-end;
+}
+.countries--fifth {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.countries--fifth .country--brazil {
+  align-self: flex-end;
+  order: 5;
+}
+.countries--fifth .country--croatia {
+  align-self: flex-end;
+  order: 4;
+}
+.countries--fifth .country--ethiopia {
+  align-self: flex-end;
+  order: 3;
+}
+.countries--fifth .country--laos {
+  align-self: flex-end;
+  order: 1;
+}
+.countries--fifth .country--uganda {
+  align-self: center;
+  order: 2;
+}
