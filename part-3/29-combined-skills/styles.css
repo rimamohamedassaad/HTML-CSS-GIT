@@ -31,6 +31,24 @@ nav {
   }
 }
 @media only screen and (min-width: 767px) {
+  .views {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .div2 {
+    float: right;
+  }
+  .div1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .views__title {
+    margin-right: 10px;
+  }
+  .view-list__item {
+    margin-right: 20px;
+  }
   .site-header {
     display: flex;
     justify-content: space-between;
