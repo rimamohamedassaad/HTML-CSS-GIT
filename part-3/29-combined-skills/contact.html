@@ -13,19 +13,21 @@
   <body>
     <div class="site-wrapper">
       <div class="site-header">
-        <div class="site-header__title">C.Y.F</div>
+        <div class="site-header__title"><header>C.Y.F</header></div>
         <div class="main-nav">
-          <ul class="main-nav__list">
-            <li class="main-nav__list-item">
-              <a href="index.html">Latest</a>
-            </li>
-            <li class="main-nav__list-item">
-              <a href="about.html">About</a>
-            </li>
-            <li class="main-nav__list-item">
-              <a href="contact.html">Contact</a>
-            </li>
-          </ul>
+          <nav>
+            <ul class="main-nav__list">
+              <li class="main-nav__list-item">
+                <a href="index.html">Latest</a>
+              </li>
+              <li class="main-nav__list-item">
+                <a href="about.html">About</a>
+              </li>
+              <li class="main-nav__list-item">
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
         </div>
         <form class="site-search" action="/search">
           <label for="search-input">
@@ -56,13 +58,39 @@
         <form method="GET" class="contact-form">
           <div class="contact-form__field">
             <label for="name">Name</label>
-            <input type="text" name="name" id="name" />
+            <input type="text" name="name" id="name" required />
           </div>
           <div class="contact-form__field">
+            <label for="mail">Email</label>
+            <input type="email" name="mail" id="mail" required />
+          </div>
+          <div class="contact-form__field">
+            <label for="message">Message</label>
             <textarea
+              id="message"
               name="message"
               placeholder="Your message should not be longer than 200 words."
+              required
             ></textarea>
+          </div>
+          <div class="contact-form__field">
+            <fieldset>
+              <legend>What branch are you interested in?</legend>
+              <table>
+                <tr>
+                  <td><input type="radio" name="branch" id="London" /></td>
+                  <td><label for="London">London</label></td>
+                </tr>
+                <tr>
+                  <td><input type="radio" name="branch" id="Glasgow" /></td>
+                  <td><label for="Glasgow">Glasgow</label></td>
+                </tr>
+                <tr>
+                  <td><input type="radio" name="branch" id="Manchester" /></td>
+                  <td><label for="Manchester">Manchester</label></td>
+                </tr>
+              </table>
+            </fieldset>
           </div>
           <button type="submit">Send</button>
         </form>
@@ -74,7 +102,7 @@
             href="https://github.com/coditech/Submissions/tree/master/Exercises/html-css-git-exercises"
             >Built</a
           >
-          with ♥ for <a href="https://codi.tech/">Codi</a>.
+          with<span>♥</span> for <a href="https://codi.tech/">Codi</a>.
         </p>
         <p>
           <svg

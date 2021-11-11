@@ -12,19 +12,23 @@
   <body>
     <div class="site-wrapper">
       <div class="site-header">
-        <h1 class="site-header__title">C.Y.F</h1>
+        <header>
+          <h1 class="site-header__title">C.Y.F</h1>
+        </header>
         <div class="main-nav">
-          <ul class="main-nav__list">
-            <li class="main-nav__list-item">
-              <a href="index.html">Latest</a>
-            </li>
-            <li class="main-nav__list-item">
-              <a href="about.html">About</a>
-            </li>
-            <li class="main-nav__list-item">
-              <a href="contact.html">Contact</a>
-            </li>
-          </ul>
+          <nav>
+            <ul class="main-nav__list">
+              <li class="main-nav__list-item">
+                <a href="index.html">Latest</a>
+              </li>
+              <li class="main-nav__list-item">
+                <a href="about.html">About</a>
+              </li>
+              <li class="main-nav__list-item">
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
         </div>
         <form class="site-search" action="/search">
           <label for="search-input">
@@ -50,9 +54,9 @@
       </div>
 
       <main class="site-content">
-        <article class="main-article">
+        <div class="main-article">
           <h1>About C.Y.F</h1>
-          <p>
+          <article>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Suspendisse sed nisi lacus sed viverra
             tellus in hac habitasse. Amet cursus sit amet dictum sit amet justo. Feugiat nibh sed
@@ -63,9 +67,10 @@
             mauris. In aliquam sem fringilla ut. Cras tincidunt lobortis feugiat vivamus at augue.
             Posuere sollicitudin aliquam ultrices sagittis orci a. Commodo sed egestas egestas
             fringilla phasellus faucibus scelerisque. Vulputate ut pharetra sit amet aliquam.
-          </p>
+            <time datetime="2010-01-7">January 07, 2010</time>
+          </article>
 
-          <p>
+          <article>
             Mi quis hendrerit dolor magna eget est lorem. Porttitor massa id neque aliquam
             vestibulum morbi. Tortor at risus viverra adipiscing at in tellus integer feugiat. Enim
             ut tellus elementum sagittis vitae et leo duis. Vitae ultricies leo integer malesuada
@@ -74,9 +79,9 @@
             interdum varius sit amet mattis vulputate enim. Porttitor eget dolor morbi non arcu
             risus. Luctus accumsan tortor posuere ac ut consequat semper. Eget felis eget nunc
             lobortis mattis aliquam faucibus purus in. Sollicitudin tempor id eu nisl nunc.
-          </p>
+          </article>
 
-          <p>
+          <article>
             Ut morbi tincidunt augue interdum velit euismod. Aliquet sagittis id consectetur purus
             ut faucibus pulvinar elementum integer. Nulla facilisi nullam vehicula ipsum. Metus
             vulputate eu scelerisque felis imperdiet. At imperdiet dui accumsan sit amet nulla
@@ -89,9 +94,9 @@
             diam sit amet. Eget mauris pharetra et ultrices neque ornare. Volutpat maecenas volutpat
             blandit aliquam etiam erat. Id volutpat lacus laoreet non curabitur gravida arcu ac
             tortor.
-          </p>
+          </article>
 
-          <p>
+          <article>
             Mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum. Mattis rhoncus
             urna neque viverra justo. Nunc consequat interdum varius sit. In hendrerit gravida
             rutrum quisque non tellus. Porta nibh venenatis cras sed felis. Malesuada pellentesque
@@ -104,17 +109,17 @@
             faucibus pulvinar elementum integer enim neque. Facilisis magna etiam tempor orci eu
             lobortis elementum nibh tellus. Ullamcorper a lacus vestibulum sed arcu non. Venenatis a
             condimentum vitae sapien.
-          </p>
+          </article>
 
-          <p>
+          <article>
             Curabitur gravida arcu ac tortor dignissim convallis aenean. Sit amet purus gravida quis
             blandit turpis. Mattis nunc sed blandit libero volutpat. Mattis ullamcorper velit sed
             ullamcorper morbi. Urna et pharetra pharetra massa massa ultricies mi quis. Est lorem
             ipsum dolor sit amet. Viverra aliquet eget sit amet. Nunc non blandit massa enim.
             Volutpat consequat mauris nunc congue. Justo donec enim diam vulputate. In nibh mauris
             cursus mattis molestie a iaculis at erat. Tortor consequat id porta nibh.
-          </p>
-        </article>
+          </article>
+        </div>
       </main>
 
       <footer>
@@ -123,7 +128,7 @@
             href="https://github.com/coditech/Submissions/tree/master/Exercises/html-css-git-exercises"
             >Built</a
           >
-          with ♥ for <a href="https://codi.tech/">Codi</a>.
+          with <span>♥</span>for <a href="https://codi.tech/">Codi</a>.
         </p>
         <p>
           <svg
